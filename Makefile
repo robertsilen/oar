@@ -193,6 +193,6 @@ $(P_TARGETS):
 	    DESTDIR=$(PACKAGES_DIR)/oar-restful-api
 
 	# keyring
-	$(MAKE) -f Makefiles/keyring.mk $(P_ACTION) \
-	    DESTDIR=$(PACKAGES_DIR)/oar-keyring
+	#$(MAKE) -f Makefiles/keyring.mk $(P_ACTION) \
+	#    DESTDIR=$(PACKAGES_DIR)/oar-keyring
 
